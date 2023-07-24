@@ -1,0 +1,23 @@
+.Input {
+  display: inline-block;
+  background-color: #26242780;
+  backdrop-filter: blur(5px);
+  border-radius: 1rem;
+  padding: 35px;
+}
+.Input .txt, .Input .btn {
+  color: #1d1d1d;
+  font-size: 1.35rem;
+  padding: 15px;
+  border-radius: 1rem;
+  margin: 5px;
+  border: 0.2rem solid transparent;
+}
+
+.Input .txt:hover, .Input .btn:hover {
+  border-color: #09f;
+}
+
+.Input .label {
+  font-size: 1.35rem;
+}
